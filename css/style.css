@@ -1,0 +1,41 @@
+html, body {
+	height: 150%;
+}
+body {
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+nav, ul, div {
+	width: 100%;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	box-sizing: border-box;
+	float: left;
+	width: 20%;
+	height: 60px;
+	background-color: tomato;
+	color: #fff;
+	font-weight: 700;
+	line-height: 60px;
+	text-align: center;
+	border-right: 2px solid rgba(0, 0, 0, .2);
+}
+
+li:last-of-type {
+	border-right: none;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
